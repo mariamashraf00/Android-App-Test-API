@@ -1,0 +1,82 @@
+<resources>
+    <string name="app_name">Instabug Android Task</string>
+    <string name="bottom_tab_request">Request</string>
+    <string name="main_view_method">Request Method</string>
+    <string name="main_view_url_example">www.example.com</string>
+    <string name="main_view_send_request">Send Request</string>
+    <string name="main_view_headers">Headers</string>
+    <string name="main_view_body">Body</string>
+    <string name="main_view_key">Key</string>
+    <string name="main_view_value">Value</string>
+    <string name="main_view_add">Add</string>
+    <string name="main_view_remove">Remove</string>
+    <string name="result_view_response_info">Response Information</string>
+    <string name="result_view_refreshing">Wait a moment…</string>
+
+    <string name="response_url">Request URL</string>
+    <string name="response_status">Status</string>
+    <string name="response_headers">Response Headers</string>
+    <string name="error">Cannot access to the URL, check your connection and service provider!\n\nError Message:\n%s</string>
+    <string name="dialog_error">Error</string>
+    <string name="dialog_warn">Warning</string>
+    <string name="dialog_ok">OK</string>
+    <string name="dialog_yes">Yes</string>
+    <string name="dialog_cancel">Cancel</string>
+    <string name="main_view_params">Parameters</string>
+    <string name="response">Response</string>
+
+    <string-array name="methods_array">
+        <item>GET</item>
+        <item>POST</item>
+    </string-array>
+
+    <string-array name="http_array">
+        <item>https://</item>
+    </string-array>
+
+    <string-array name="headers_array">
+        <item>Accept</item>
+        <item>Accept-Charset</item>
+        <item>Accept-Datetime</item>
+        <item>Accept-Encoding</item>
+        <item>Accept-Language</item>
+        <item>Access-Control-Request-Headers</item>
+        <item>Access-Control-Request-Method</item>
+        <item>Authorization</item>
+        <item>Cache-Control</item>
+        <item>Connection</item>
+        <item>Content-Length</item>
+        <item>Content-MD5</item>
+        <item>Content-Transfer-Encoding</item>
+        <item>Content-Type</item>
+        <item>Cookie</item>
+        <item>Cookie 2</item>
+        <item>DNT</item>
+        <item>Date</item>
+        <item>Expect</item>
+        <item>Forwarded</item>
+        <item>From</item>
+        <item>Host</item>
+        <item>If-Match</item>
+        <item>If-Modified-Since</item>
+        <item>If-None-Match</item>
+        <item>If-Range</item>
+        <item>If-Unmodified-Since</item>
+        <item>Keep-Alive</item>
+        <item>Max-Forwards</item>
+        <item>Origin</item>
+        <item>Pragma</item>
+        <item>Proxy-Authorization</item>
+        <item>Range</item>
+        <item>Referer</item>
+        <item>TE</item>
+        <item>Trailer</item>
+        <item>Transfer-Encoding</item>
+        <item>Upgrade</item>
+        <item>User-Agent</item>
+        <item>Via</item>
+        <item>Warning</item>
+        <item>X-Do-Not-Track</item>
+        <item>X-Requested-With</item>
+    </string-array>
+</resources>

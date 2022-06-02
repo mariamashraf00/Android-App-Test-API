@@ -1,0 +1,39 @@
+<resources>
+    <style name="AppTheme" parent="Theme.AppCompat">
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <style name="AppTheme.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <style name="AppTheme.TextAppearanceLarge">
+        <item name="android:textSize">18sp</item>
+        <item name="android:textColor">@color/colorAccent</item>
+    </style>
+
+    <style name="AppTheme.TextAppearanceNormal">
+        <item name="android:textSize">16sp</item>
+        <item name="android:textColor">@color/colorTextPrimary</item>
+    </style>
+
+    <style name="AppTheme.TextAppearanceSmall">
+        <item name="android:textSize">13sp</item>
+        <item name="android:textColor">@color/colorTextPrimary</item>
+    </style>
+
+    <style name="AppTheme.TextAppearanceLarge.Right">
+        <item name="android:gravity">right|end</item>
+    </style>
+
+    <style name="AppTheme.TextAppearanceLargeSpinner">
+        <item name="android:spinnerItemStyle">@style/AppTheme.TextAppearanceLarge.Right</item>
+    </style>
+
+    <style name="AppTheme.TextAppearanceNormalSpinner">
+        <item name="android:spinnerItemStyle">@style/AppTheme.TextAppearanceNormal</item>
+    </style>
+</resources>

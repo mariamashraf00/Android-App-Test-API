@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item name="request_setting_list_header" type="id"/>
+    <item name="request_setting_list_param" type="id"/>
+    <item name="request_setting_list_body" type="id"/>
+    <item name="request_setting_list_title" type="id"/>
+</resources>

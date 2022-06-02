@@ -1,0 +1,37 @@
+apply plugin: 'com.android.application'
+
+android {
+    compileSdkVersion 32
+    buildToolsVersion "29.0.2"
+    defaultConfig {
+        applicationId "com.example.instabug"
+        minSdkVersion 21
+        targetSdkVersion 32
+        versionCode 1
+        versionName "1"
+        testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
+    }
+    buildTypes {
+        release {
+            minifyEnabled true
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+        }
+    }
+    compileOptions {
+        sourceCompatibility = 1.8
+        targetCompatibility = 1.8
+    }
+}
+
+dependencies {
+
+    implementation 'androidx.appcompat:appcompat:1.4.1'
+    implementation 'androidx.constraintlayout:constraintlayout:2.1.4'
+    testImplementation 'junit:junit:4.13.2'
+    implementation 'androidx.recyclerview:recyclerview:1.2.1'
+    implementation 'org.conscrypt:conscrypt-android:2.2.1'
+    implementation 'com.squareup.okhttp3:okhttp:3.12.3'
+    implementation 'com.google.android.material:material:1.6.0'
+    implementation 'com.mikepenz:fastadapter-commons:2.6.3@aar'
+    implementation 'com.mikepenz:fastadapter:2.6.3@aar'
+}
